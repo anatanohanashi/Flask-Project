@@ -2,11 +2,11 @@ committees = {
 	"arc": 
     {
 		"name": "Academic Resource Committee",
-		"function" : "The Academic Resource Committee is in-charge of all academic and other educational matters and promotes and maintains a high level of educational value among the members of the organization. Furthermore, it provides the other communities with necessary researches and conducts studies on the ways and means for the utmost effectivity of the activities of the organization.
-",
+		"function" : "The Academic Resource Committee is in-charge of all academic and other educational matters and promotes and maintains a high level of educational value among the members of the organization. Furthermore, it provides the other communities with necessary researches and conducts studies on the ways and means for the utmost effectivity of the activities of the organization.",
         "chairperson": "Krishna Chelsea Garay",
 		"members":["Patricia Faye Anne Banzon", "Joan Catolico", "Airam Dave Cuyos", "Jester Vince De Torres", "Micah Halamani", "Holito Jr. Perez", "Maria Cecilia San Juan", "Paula Beatriz Santos", "James Orlan Sario"]
 	},	
+	
 	"exte": 
 	{
 		"name": "External Affairs Committee",
