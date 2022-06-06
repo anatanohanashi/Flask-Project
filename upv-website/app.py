@@ -1,17 +1,15 @@
-from flask import Flask
+from flask import Flask, render_template, jsonify, url_for
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return """<h1>Adopt a Pet!</h1>
-                <p>Browse through the links below to find your new furry friend:</p>
-                <ul>
-                    <li><a href="/animals/dogs">Dogs</a></li>
-                    <li><a href="/animals/cats">Cats</a></li>
-                    <li><a href="/animals/rabbits">Rabbits</a></li>
-                </ul>
-            """
+    return """Welcome to UP Variates!</h1>"""
+
+@app.route('/org_structure')
+def org_structure():
+    return """Welcome to UP Variates!</h1>"""
+    return render_template('org_structure.html')
 
 
 if __name__ == "__main__":
