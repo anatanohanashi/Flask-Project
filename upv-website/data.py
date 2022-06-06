@@ -7,9 +7,9 @@ committees = {
     },
 
     "exte": {
-		"name": "External Affairs Committee"
-		"function": "The External Affairs Committee represents and coordinates all projects, activities, and functions done in cooperation with other organizations. It also coordinates with the Secretariat Committee in fostering good relationship with other organizations, offices, or individuals and is in-charge of establishing contacts in and out the university. Furrthermore, it spearheada trainings and career opportunities for the members, and solicitations for the activities of the organization."
-        "chairperson": "Lois Alfred Tolentino"
+		"name": "External Affairs Committee",
+		"function": "The External Affairs Committee represents and coordinates all projects, activities, and functions done in cooperation with other organizations. It also coordinates with the Secretariat Committee in fostering good relationship with other organizations, offices, or individuals and is in-charge of establishing contacts in and out the university. Furrthermore, it spearheada trainings and career opportunities for the members, and solicitations for the activities of the organization.",
+        "chairperson": "Lois Alfred Tolentino",
 		"members":["Jasmine Amor Avelino", "Christian Patrick Bitun", "Charissa May Sta. Maria", "Arnon Christien Cruz", "Meeka Angelu Gray", "Hazel Anne Paguirigan", "Luis Augusto Tan", "Carissa Elaine Varon"]
 	},
 
