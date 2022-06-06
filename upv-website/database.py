@@ -67,3 +67,23 @@ eb = {
     "Secretariat Committee" : ["Ian Eimerson Mercado", "static/images/eb/IAN.jpg"],
     "Social Consciousness Committee" : ["Noeliano Ocorro", "static/images/eb/NOEL.jpg"]
 }
+
+activities = {
+	"Major Events": 
+    {
+        "Grand Outreach":
+        {
+            "desc":"Some description",
+            "img_file":"static/images/eb/EANNA.jpg"
+        }
+	}
+}
+
+
+achievements = {
+    "Organization with Great Social Contribution During Pandemic (Linggo ng Parangal 2021)": 
+    {
+        "caption":"Some caption",
+        "img_file":"static/images/eb/EANNA.jpg"
+    }
+}

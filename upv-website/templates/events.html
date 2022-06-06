@@ -1,3 +1,15 @@
-<html>
-    <h1> Events </h1>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Events{% endblock %}
+
+{% block content %}
+<h1>Events</h1>
+{%for category in events %}
+<h2>{{category}}</h2>
+{% for event in events[category] %}
+<h3>{{event}}</h3>
+<img src={{events[category][event]["img_file"]}} alt="" width=20%> <br>
+<p>{{events[category][event]["desc"]}}</p>
+{% endfor %}
+{% endfor %}
+{% endblock %}

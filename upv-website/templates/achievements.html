@@ -1,3 +1,12 @@
-<html>
-    <h1> Achievements </h1>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}Achievements{% endblock %}
+
+{% block content %}
+<h1>Achievements</h1>
+{% for achievement in achievements%}
+<h2>{{achievement}}</h2>
+<img src="{{achievements[achievement]["img_file"]}}" alt="" width=20%>
+<p>{{achievements[achievement]["caption"]}}</p>
+{% endfor %}
+{% endblock %}

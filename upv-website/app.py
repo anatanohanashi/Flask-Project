@@ -1,6 +1,7 @@
 from flask import Flask, render_template, jsonify, url_for
 from test_data import pets
-from database import committees, eb
+from database import committees, eb, activities
+from database import achievements as achvmnts
 
 app = Flask(__name__)
 
@@ -18,11 +19,11 @@ def org_structure():
 
 @app.route('/events')
 def events():
-    return render_template('events.html')
+    return render_template('events.html', events=activities)
 
 @app.route('/achievements')
 def achievements():
-    return render_template('achievements.html')
+    return render_template('achievements.html', achievements=achvmnts)
 
 @app.route('/contact')
 def contact():

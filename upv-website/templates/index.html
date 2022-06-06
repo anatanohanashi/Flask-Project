@@ -1,11 +1,17 @@
-<html>
-    <h1> Welcome to UP Variates! </h1>
-    <ul>
-        <li><a href="\executiveboard">Executive Board</a></li>
-        <li><a href="\committees">Committees</a></li>
-        <li><a href="\about">About</a></li>
-        <li><a href="\achievements">Achievements</a></li>
-        <li><a href="\contact">Contact</a></li>
-        <li><a href="\events">Events</a></li>
-    </ul>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}UP Variates{% endblock %}
+
+{% block content %}
+<h1>Welcome to UP Variates! </h1>
+<ul>
+    <li><a href="\executiveboard">Executive Board</a></li>
+    <li><a href="\committees">Committees</a></li>
+    <li><a href="\events">Events</a></li>
+    <li><a href="\achievements">Achievements</a></li>
+    <li><a href="\about">About</a></li>
+    <li><a href="\contact">Contact</a></li>
+</ul>
+{% endblock %}
+
+
