@@ -36,14 +36,14 @@ committees = {
 
     "sec": {
 		"name": "Secretariat Committee",
-		"function": "To blah blah",
-        "chairperson": "Ian Eimerson Mercado",
+		"function": "The Secretariat Committee is in-charge of all publication, project propaganda, information campaigns, and reproduction for internal and external consumption. It is also in-charge of the dissemination of information and communiqué regarding and within the organization. Moreover, the committee takes and documents minutes of all meetings of the General Assembly.",
+        "chairperson": "The Secretariat Committee is in-charge of all publication, project propaganda, information campaigns, and reproduction for internal and external consumption. It is also in-charge of the dissemination of information and communiqué regarding and within the organization. Moreover, the committee takes and documents minutes of all meetings of the General Assembly.",
 		"members":["Roger Jr. Antonio", "Czarina Apdon", "Ma. Czifriani De Mesa", "Jian Dequina", "Katherine Mae Gonzalvo", "Viktoria Cecilia Manipis", "Niel Jasper Pena", "Christia Tangin", "Lyzelle Anne Teruel"]
 	},
 
     "scc": {
 		"name": "Social Consciousness Committee",
-		"function": "To blah blah",
+		"function": "The Social Consciousness Committee promotes social consciousness among the members of the organization. It also handles seminars, symposia and other such venues, and provides the common stand of the organization on university and national issues.",
         "chairperson": "Noeliano Ocorro",
 		"members":["Christian Claudde Aure", "Wyomi Chloe Betis", "Diether Candelario", "Dominic Gamboa", "Marc Shervin Ignacio", "Sophia Palad", "Ray Albert Pujeda", "Aquilla Luke Villamor", "Jean Phoebe Yao"]
 	}
