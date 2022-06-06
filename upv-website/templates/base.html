@@ -1,0 +1,9 @@
+<html>
+    <head>
+        <title>{% block title %}{%endblock%}</title>
+    </head>
+    <body>
+        <img src="{{ url_for("static", filename="upv_header.jpg")}}" alt="" width=100% >
+        {% block content %}{% endblock %}
+    </body>
+</html>
