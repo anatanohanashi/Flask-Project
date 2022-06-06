@@ -7,7 +7,7 @@
 {% for committee_name in committees %}
 <h2>{{ committees[committee_name]['name'] }}</h2> 
 Function: {{committees[committee_name]['function']}} <br>
-<b>Chairpersron: {{committees[committee_name]['chairperson']}}</b>
+<b>Chairperson: {{committees[committee_name]['chairperson']}}</b>
 {% for members in committees[committee_name]['members'] %}
 <ul>
     <li>{{members}}</li>
