@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, url_for
-from data import committees 
 from test_data import pets
+from database import committees, eb
 
 app = Flask(__name__)
 
@@ -10,11 +10,11 @@ def index():
 
 @app.route('/executiveboard')
 def executiveboard():
-    return render_template('executiveboard.html')
+    return render_template('executiveboard.html', eb_list=eb)
 
 @app.route('/committees')
 def org_structure():
-    return render_template('committees.html')
+    return render_template('committees.html', committees=committees)
 
 @app.route('/events')
 def events():
