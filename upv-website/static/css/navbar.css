@@ -2,7 +2,7 @@ header{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: rgb(70, 43, 220);
 }
 
 li, a button{
@@ -30,7 +30,7 @@ header{
 
 .nav_links li{
     display: inline;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 .nav_links li, a{
@@ -40,4 +40,3 @@ header{
 .nav_links li, a:hover{
     color: rgb(80, 195, 44)
 }
-
