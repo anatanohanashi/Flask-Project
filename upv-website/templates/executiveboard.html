@@ -10,8 +10,14 @@
 <br>
 {% for position in eb_list %}
 <h3 class = "role">{{position}}</h3> 
-<img src={{eb_list[position][1]}} alt="" width=20% > <br>
-{{eb_list[position][0]}}
+<div style="display: flex; justify-content: center">
+    <img src={{eb_list[position][1]}} alt="" width=25% > <br>
+</div>
+
+<div style="display: flex; justify-content: center">
+    <i class="officer" style="font-size:20px;">{{eb_list[position][0]}}</i>
+</div>
+
 <br>
 <br>
 {% endfor %}

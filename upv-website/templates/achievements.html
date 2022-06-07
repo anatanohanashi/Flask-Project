@@ -8,8 +8,10 @@
 <h1 class = "title"> Achievements </h1>
 {% for achievement in achievements%}
 <h2 class = "awards">{{achievement}}</h2>
-<img src="{{achievements[achievement]["img_file"]}}" alt="" width=20%>
-<p>{{achievements[achievement]["caption"]}}</p>
+<div style="display: flex; justify-content: center">
+    <img src="{{achievements[achievement]["img_file"]}}" alt="" width=30%>
+</div>
+<p class="caption">{{achievements[achievement]["caption"]}}</p>
 {% endfor %}
 <br>
 {% endblock %}

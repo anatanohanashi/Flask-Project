@@ -59,15 +59,31 @@ p{
     text-justify: inter-word;
 }
 
-.event{
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.event_desc{
+.caption{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px
 }
+
+.event, .awards,.role{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* .officer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-style: italic;
+} */
+
+.event_desc, .officer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
