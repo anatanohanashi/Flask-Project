@@ -1,24 +1,22 @@
 .indv_page{
-    padding-left: ;
-    padding-right: ;
-.title {
+    padding-left: 100px ;
+    padding-right: 100px; 
+}
 
+.title {
+    color: blue;
 }
 
 .role {
-    
+    color: black;
 }
 
 
 .awards {
-
-}
-
-p{ 
     color: black;
 }
 
-.title{
+p{ 
     color: black;
 }
 
@@ -41,3 +39,6 @@ p{
 .event_categ{
     color: black;
 }
+
+
+

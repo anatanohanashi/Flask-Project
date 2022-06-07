@@ -2,7 +2,7 @@ footer {
     margin:0%;
     padding: 0%;
     box-sizing: border-box;
-    background-color: #111;
+    background-color: #212529;
     height: auto;
     width: 100vw;
     font-family: "Open Sans";
@@ -33,15 +33,15 @@ footer {
 }
 
 .socials{
-    list-style: none;
+    list-style: none ;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+    align-items:center;
+    justify-content:center;
+    margin: 0.5rem 0 3rem 0;
 }
 
 .socials li{ 
-    margin: 0 0px;
+    margin: 0 2em 0 2em;
 }
 
 .socials a{
@@ -50,5 +50,9 @@ footer {
 }
 
 .socials a:hover{
-    color: aqua;
+    color: #e6f7ff;
+}
+
+#id {
+    color: #e6f7ff;
 }
