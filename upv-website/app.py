@@ -5,6 +5,7 @@ from database import achievements as achvmnts
 
 app = Flask(__name__)
 
+@app.route('/home')
 @app.route('/')
 def index():
     return render_template("index.html")

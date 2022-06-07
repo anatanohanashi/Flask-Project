@@ -5,3 +5,14 @@ body{
 h1{
     color: blue;
 }
+
+.nav-item{
+    text-decoration: none;
+}
+
+/* @media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+} */
