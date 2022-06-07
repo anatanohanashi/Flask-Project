@@ -8,7 +8,7 @@
 	margin-right: 200px;
 	margin-left:  200px;
 	margin: 0 auto;
-\	width: fit-content;
+	width: fit-content;
 }
 
 
@@ -24,14 +24,6 @@ h1{
     text-decoration: none;
 }
 
-/* @media (min-width: 992px){
-    .navbar li {
-        margin-left : 1em;
-        margin-right : 1em;
-    }
-} */
-    color: #11114f;
-}
 
 h3{
     color: #00000c;

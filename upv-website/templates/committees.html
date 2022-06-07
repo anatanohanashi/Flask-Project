@@ -3,15 +3,17 @@
 {% block title %}Committees{% endblock %}
 
 {% block content %}
-<h1>Members and Committees<h1>
+<h1 class="title">Members and Committees<h1>
 {% for committee_name in committees %}
-<h2>{{ committees[committee_name]['name'] }}</h2> 
-Function: {{committees[committee_name]['function']}} <br>
-<b>Chairperson: {{committees[committee_name]['chairperson']}}</b>
+<h2 class="committee">{{ committees[committee_name]['name'] }}</h2> 
+<p>Function: {{committees[committee_name]['function']}}</p>  <br>
+<b class="chair">Chairperson: {{committees[committee_name]['chairperson']}}</b>
 {% for members in committees[committee_name]['members'] %}
-<ul>
-    <li>{{members}}</li>
-</ul>
+<div class="memlist">
+    <ul>
+        <li class="mems">{{members}}</li>
+    </ul>
+</div>
 {% endfor %}
 {% endfor %}
 {% endblock %}
