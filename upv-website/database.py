@@ -60,7 +60,7 @@ eb = {
 	"President" : ["Gia Mizrane Abubo", "static/images/eb/GIA.jpg"],
     "Vice President" : ["Joshua Figuracion", "static/images/eb/JOSHUA.jpg"],
     "Academic Resource Committee Chaiperson" : ["Krishna Chelsea Garay", "static/images/eb/KRISHNA.jpg"],
-    "External Affairs Committee Chairperon" : ["Lois Alfred Tolentiono", "static/images/eb/LOIS.jpg"],
+    "External Affairs Committee Chairperon" : ["Lois Alfred Tolentino", "static/images/eb/LOIS.jpg"],
     "Finance Committee Chairperson" : ["Jove Mutya Omamos", "static/images/eb/JOVE.jpg"],
     "Internal Affairs Committee Chairperson" : ["Loren Angela Hernandez", "static/images/eb/LOREN.jpg"],
     "Membership Committee" : ["Eanna Abbygale Yem", "static/images/eb/EANNA.jpg"],

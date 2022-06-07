@@ -5,7 +5,7 @@
 {% block content %}
 <h1>The Executive Board</h1>
 {% for position in eb_list %}
-<h2>{{position}}</h2>
+<h3>{{position}}</h3>
 <img src={{eb_list[position][1]}} alt="" width=20% > <br>
 {{eb_list[position][0]}}
 {% endfor %}
