@@ -2,41 +2,11 @@
 <html>
   <head>
     <title>Using Internal CSS</title>
-    <style type="text/css">
-    body {
-          font-family: arial;
-          background-color: rgb(185,179,175);}
-    h1 {
-          color: rgb(255,255,255);}
-    li {
-        display: inline;
-        float: left;
-        border-right: 1px solid #bbb;
-        }
-    a {
-        display: block;
-        padding: 8px;
-        background-color: #333;
-        color:#04AA6D;
-        }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        }
-/* Change the link color to #111 (black) on hover */
-    li a:hover {
-    background-color: #111;
-    
-    }
-    .active {
-  background-color: #04AA6D;
-
-    </style>
+    <link rel="stylesheet" href="main.css" type="text/css">
+  
   </head>
   <body>
+    <h1>Test</h1>
     <ul>
         <li><a href="default.asp">Home</a></li>
         <li><a href="news.asp">News</a></li>
