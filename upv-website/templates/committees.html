@@ -6,12 +6,12 @@
 <h1 class="title">Members and Committees<h1>
 {% for committee_name in committees %}
 <h2 class="committee">{{ committees[committee_name]['name'] }}</h2> 
-<p>Function: {{committees[committee_name]['function']}}</p>  <br>
+<p class="comm_fcn">Function: {{committees[committee_name]['function']}}</p>  <br>
 <b class="chair">Chairperson: {{committees[committee_name]['chairperson']}}</b>
 {% for members in committees[committee_name]['members'] %}
 <div class="memlist">
     <ul>
-        <li class="mems">{{members}}</li>
+        <li class="mems">{{members}}</li>   
     </ul>
 </div>
 {% endfor %}

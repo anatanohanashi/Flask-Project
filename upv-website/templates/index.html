@@ -8,8 +8,12 @@
     <p>
     University of the Philippines Variates is a duly recognized non-profit socio-academic organization based in the UP School of Statistics that aims to provide venues that will shape its members into well-rounded individuals with its social advocacies through and beyond Statistics.
     </p>
-    <img src = "{{ url_for("static", filename="OrgPic1.JPG")}}" alt="" width=80% >
-
+    <div style="display: flex;
+    justify-content: center; padding-bottom:5rem; padding-top: 1rem;">
+        <img class="d-inline-lock align-top" src = "{{ url_for("static", filename="OrgPic1.JPG")}}" alt="" width=32% style="padding:1rem">
+        <img class="d-inline-lock align-top" src = "{{ url_for("static", filename="OrgPic2.JPG")}}" alt="" width=32% style="padding:1rem">
+        <img class="d-inline-lock align-top" src = "{{ url_for("static", filename="OrgPic3.JPG")}}" alt="" width=32% style="padding:1rem">
+    </div>
 {% endblock %}
 
 
