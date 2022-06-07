@@ -3,7 +3,10 @@
 {% block title %}Events{% endblock %}
 
 {% block content %}
+<br>
+<br>
 <h1 class="title">Events</h1>
+<br>
 {%for category in events %}
 <h2 class="event_categ">{{category}}</h2>
 {% for event in events[category] %}
@@ -13,5 +16,7 @@
 </div>
 <p class="event_desc">{{events[category][event]["desc"]}}</p>
 {% endfor %}
+<br>
 {% endfor %}
+<br>
 {% endblock %}
