@@ -2,26 +2,26 @@ p{
     color: black;
 }
 
-#title{
+.title{
     color: black;
 }
 
 /* Committee */
 
-#committee{
+.committee{
     color: black;
 }
 
-#chair{
+.chair{
     color: black;
 }
 
-#mems{
+.mems{
     color:black;
 }
 
 /* Events */
 
-#event_categ{
+.event_categ{
     color: black;
 }
