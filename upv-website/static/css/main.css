@@ -1,19 +1,8 @@
-#container{
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-	width:  1100px;
-	height: 1450px;
-	margin-right: 200px;
-	margin-left:  200px;
-	margin: 0 auto;
-\	width: fit-content;
-}
 
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(185, 238, 255);
 }
 
 h1{
