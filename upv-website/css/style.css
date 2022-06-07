@@ -4,15 +4,14 @@ body {
     font-size: .9375rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
     text-align: left;
-    background-color: #fefefe;
+    background-color: #4a2525;
 }
 
-h1{
+h1 {
 	position: relative;
 	top: 55px;
-	color: #000032;
+	color: #7878d2;
 	text-align: left;
 	font-family: Roboto,Helvetica,Arial,sans-serif;
 	font-style: normal; 
