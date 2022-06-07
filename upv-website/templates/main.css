@@ -1,5 +1,4 @@
 #container{
-    padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
@@ -15,9 +14,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1{
-    color: blue;
-    color: #11114f;
+h1   color: #11114f;
 }
 
 h3{
