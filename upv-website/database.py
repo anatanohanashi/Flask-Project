@@ -63,9 +63,9 @@ eb = {
     "External Affairs Committee Chairperon" : ["Lois Alfred Tolentino", "static/images/eb/LOIS.jpg"],
     "Finance Committee Chairperson" : ["Jove Mutya Omamos", "static/images/eb/JOVE.jpg"],
     "Internal Affairs Committee Chairperson" : ["Loren Angela Hernandez", "static/images/eb/LOREN.jpg"],
-    "Membership Committee" : ["Eanna Abbygale Yem", "static/images/eb/EANNA.jpg"],
-    "Secretariat Committee" : ["Ian Eimerson Mercado", "static/images/eb/IAN.jpg"],
-    "Social Consciousness Committee" : ["Noeliano Ocorro", "static/images/eb/NOEL.jpg"]
+    "Membership Committee Chairperson" : ["Eanna Abbygale Yem", "static/images/eb/EANNA.jpg"],
+    "Secretariat Committee Chairperson" : ["Ian Eimerson Mercado", "static/images/eb/IAN.jpg"],
+    "Social Consciousness Committee Chairperson" : ["Noeliano Ocorro", "static/images/eb/NOEL.jpg"]
 }
 
 activities = {
@@ -96,13 +96,7 @@ activities = {
         {
             "desc":"UP variates conducts Kamustahan Sessions to check the situation of its members, especially in this pandemic.",
             "img_file":"static/images/events/Kumustahan_1.png"
-        },
-
-        "Bonding Activities":
-        {
-            "desc":"Bonding activities such as Committee Wars, Semstarter, Game and Movie Nights are also organized which enable the members to destress and have more interaction with each other.",
-            "img_file":" "
-        },
+        }
     },
 
     "Other Initiatives": 

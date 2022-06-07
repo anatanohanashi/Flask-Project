@@ -3,10 +3,17 @@
 {% block title %}Executive Board{% endblock %}
 
 {% block content %}
+<br>
+<br>
 <h1 class = "title"> The Executive Board </h1>
+<br>
+<br>
 {% for position in eb_list %}
-<h3 class = "role">{{position}}</h3>
+<h3 class = "role">{{position}}</h3> 
 <img src={{eb_list[position][1]}} alt="" width=20% > <br>
 {{eb_list[position][0]}}
+<br>
+<br>
 {% endfor %}
+<br>
 {% endblock %}

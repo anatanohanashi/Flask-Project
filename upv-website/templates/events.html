@@ -3,7 +3,10 @@
 {% block title %}Events{% endblock %}
 
 {% block content %}
+<br>
+<br>
 <h1 class="title">Events</h1>
+<br>
 {%for category in events %}
 <h2 class="event_categ">{{category}}</h2>
 {% for event in events[category] %}
@@ -11,5 +14,7 @@
 <img src={{events[category][event]["img_file"]}} alt="" width=20%> <br>
 <p>{{events[category][event]["desc"]}}</p>
 {% endfor %}
+<br>
 {% endfor %}
+<br>
 {% endblock %}
