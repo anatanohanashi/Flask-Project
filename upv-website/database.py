@@ -110,7 +110,7 @@ activities = {
         "Academic Tutorials":
         {
             "desc": "UP Variates holds tutorials on Statistics and Mathematics courses for the students to prepare them for their upcoming long examinations.",
-            "img_file":""
+            "img_file":"static/images/events/Tutorial.jpg"
         },
 
         "Statistical Challenge":

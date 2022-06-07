@@ -1,4 +1,4 @@
-body {
+* {
     margin: 20;
     font-family: Roboto,Helvetica,Arial,sans-serif;
     font-size: .9375rem;
