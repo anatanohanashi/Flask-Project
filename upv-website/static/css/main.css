@@ -6,10 +6,16 @@ body{
 }
 
 h1{
-    color: #11114f;
+    color: blue;
 }
+
+.nav-item{
+    text-decoration: none;
+}
+
 
 h3{
     color: #00000c;
     type
 }
+
